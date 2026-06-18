@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "source_image": "Google Maps satellite screenshot (house/hangar/pool view, Worthington Springs FL)",
+    "image_size_px": [
+      1206,
+      2622
+    ],
+    "scale_ft_per_px": 0.219,
+    "scale_note": "ft = px * 0.219, derived from the on-screen 50ft map scale bar",
+    "well_gpm": 21,
+    "design_gpm_per_zone": 20,
+    "static_psi": 50,
+    "controller": "Hunter X2, 6 stations (hard cap)",
+    "wellhouse_px": [
+      540,
+      1190
+    ],
+    "wellhouse_ft": [
+      118.3,
+      260.6
+    ],
+    "routing_note": "mainline runs north from wellhouse to apron/road edge (~160ft), then ~260ft east-west along the apron before branching south into each zone"
+  },
+  "zones": [
+    {
+      "id": 1,
+      "box_px": [
+        0,
+        440,
+        400,
+        860
+      ],
+      "box_ft_xyxy": [
+        0.0,
+        96.4,
+        87.6,
+        188.3
+      ],
+      "color_rgb": [
+        230,
+        30,
+        30
+      ],
+      "head_type": "large rotor, 5-7 GPM, ~35ft radius (Hunter I-25 or similar)",
+      "head_radius_ft": 35,
+      "heads_px": [
+        [
+          60,
+          650
+        ],
+        [
+          200,
+          650
+        ],
+        [
+          340,
+          650
+        ]
+      ],
+      "heads_ft": [
+        [
+          13.1,
+          142.3
+        ],
+        [
+          43.8,
+          142.3
+        ],
+        [
+          74.5,
+          142.3
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "box_px": [
+        400,
+        440,
+        800,
+        860
+      ],
+      "box_ft_xyxy": [
+        87.6,
+        96.4,
+        175.2,
+        188.3
+      ],
+      "color_rgb": [
+        240,
+        140,
+        0
+      ],
+      "head_type": "large rotor, 5-7 GPM, ~35ft radius",
+      "head_radius_ft": 35,
+      "heads_px": [
+        [
+          460,
+          650
+        ],
+        [
+          600,
+          650
+        ],
+        [
+          740,
+          650
+        ]
+      ],
+      "heads_ft": [
+        [
+          100.7,
+          142.3
+        ],
+        [
+          131.4,
+          142.3
+        ],
+        [
+          162.1,
+          142.3
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "box_px": [
+        800,
+        440,
+        1206,
+        860
+      ],
+      "box_ft_xyxy": [
+        175.2,
+        96.4,
+        264.1,
+        188.3
+      ],
+      "color_rgb": [
+        230,
+        210,
+        0
+      ],
+      "head_type": "large rotor, 5-7 GPM, ~35ft radius",
+      "head_radius_ft": 35,
+      "heads_px": [
+        [
+          860,
+          650
+        ],
+        [
+          1000,
+          650
+        ],
+        [
+          1140,
+          650
+        ]
+      ],
+      "heads_ft": [
+        [
+          188.3,
+          142.3
+        ],
+        [
+          219.0,
+          142.3
+        ],
+        [
+          249.7,
+          142.3
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "box_px": [
+        0,
+        860,
+        160,
+        1750
+      ],
+      "box_ft_xyxy": [
+        0.0,
+        188.3,
+        35.0,
+        383.2
+      ],
+      "color_rgb": [
+        20,
+        160,
+        60
+      ],
+      "head_type": "large rotor, 5-7 GPM, ~35ft radius",
+      "head_radius_ft": 35,
+      "heads_px": [
+        [
+          80,
+          950
+        ],
+        [
+          80,
+          1250
+        ],
+        [
+          80,
+          1550
+        ]
+      ],
+      "heads_ft": [
+        [
+          17.5,
+          208.1
+        ],
+        [
+          17.5,
+          273.8
+        ],
+        [
+          17.5,
+          339.4
+        ]
+      ],
+      "warning": "head spacing is 65.7ft along a 35ft-wide strip -> coverage gap between top head and bottom two; add a 4th head or use part-circle heads aimed along the strip"
+    },
+    {
+      "id": 5,
+      "box_px": [
+        160,
+        1460,
+        720,
+        1750
+      ],
+      "box_ft_xyxy": [
+        35.0,
+        319.7,
+        157.7,
+        383.2
+      ],
+      "color_rgb": [
+        30,
+        100,
+        230
+      ],
+      "head_type": "large rotor, 5-7 GPM, ~35ft radius",
+      "head_radius_ft": 35,
+      "heads_px": [
+        [
+          280,
+          1600
+        ],
+        [
+          440,
+          1600
+        ],
+        [
+          600,
+          1600
+        ]
+      ],
+      "heads_ft": [
+        [
+          61.3,
+          350.4
+        ],
+        [
+          96.4,
+          350.4
+        ],
+        [
+          131.4,
+          350.4
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "boxes_px": [
+        [
+          680,
+          860,
+          1206,
+          1970
+        ],
+        [
+          0,
+          1750,
+          720,
+          1970
+        ]
+      ],
+      "boxes_ft_xyxy": [
+        [
+          148.9,
+          188.3,
+          264.1,
+          431.4
+        ],
+        [
+          0.0,
+          383.2,
+          157.7,
+          431.4
+        ]
+      ],
+      "color_rgb": [
+        0,
+        200,
+        200
+      ],
+      "head_type": "shorter rotor/spray, ~25-35ft radius",
+      "heads_px": [],
+      "head_count_estimate": [
+        4,
+        6
+      ],
+      "note": "mixed grass + mulch beds under trees - head positions not finalized, requires on-site walk to mark grass vs mulch boundaries before placing heads"
+    }
+  ]
+}
